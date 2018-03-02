@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yzz.textdemogatherapp.MainActivity">
+
+    <Button
+        android:id="@+id/pass_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="跳转ToolBar" />
+
+    <Button
+        android:id="@+id/pass_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="跳转Viewpager" />
+
+    <Button
+        android:id="@+id/pass_set_number"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="添加数字" />
+
+    <Button
+        android:id="@+id/pass_get_number"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="获取数字" />
+
+    <Button
+        android:id="@+id/pass_proxy"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="静态代理模式" />
+
+    <Button
+        android:id="@+id/pass_proxy_dong"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="动态代理模式" />
+
+    <Button
+        android:id="@+id/pass_builder"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="建造者模式" />
+
+    <Button
+        android:id="@+id/pass_factory"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="工厂模式" />
+</LinearLayout>
